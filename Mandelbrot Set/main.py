@@ -4,7 +4,7 @@ import math
 import numba
 
 # settings
-res = W, H = 800, 450
+res = W, H = 1920, 1080
 offset = np.array([1.3 * W, H]) // 2
 max_iter = 30
 zoom = 2.2 / H
